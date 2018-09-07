@@ -1,0 +1,25 @@
+{
+  "name": "thearms",
+  "version": "1.0.0",
+  "description": "Projeto de estudo ",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioellias/theArms.git"
+  },
+  "author": "Fabio Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabioellias/theArms/issues"
+  },
+  "homepage": "https://github.com/fabioellias/theArms#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
