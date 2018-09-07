@@ -1,0 +1,21 @@
+@mixin border-radius ($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+$corDeFundo : whitesmoke;
+
+body{
+    background-color: $corDeFundo;
+}
+
+nav{
+    border: black 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    @include border-radius(5px);
+}
+
